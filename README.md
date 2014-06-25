@@ -6,7 +6,7 @@ Sets up a container with jenkins installed listening on port 8080.
 
 To run the container, do the following:
 
-    docker run -d -P aespinosa/jenkins
+    docker run -d -P elgalu/jenkins
     
     docker ps
     CONTAINER ID        IMAGE                       COMMAND                CREATED             STATUS              PORTS                     NAMES
@@ -18,11 +18,11 @@ Your jenkins instance is now available by going to http://localhost:49153 .
 
 To build the image, simply invoke
 
-    docker build github.com/aespinosa/docker-jenkins
+    docker build github.com/elgalu/docker-jenkins
 
 A prebuilt container is also available in the docker index
 
-    docker pull aespinosa/jenkins
+    docker pull elgalu/jenkins
 
 
 ## Author
